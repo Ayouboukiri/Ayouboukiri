@@ -1,0 +1,267 @@
+
+
+      
+body{
+    background-image:url("image/simon-pasquesi-chess-piece-render.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover
+    ;
+}
+
+header ul{
+    position: relative;
+    display: flex;
+   margin-right :50px;
+   margin-left: 10%;
+
+}  
+header ul li{
+    position:relative;
+    list-style: none ; 
+}
+
+
+.top_bare:link, .top_bare:visited {
+    padding: 2px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    position:relative;
+    text-decoration:none;
+    color: #000000;
+    margin: 0 0;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    font-size:2em ;
+    transition: 0.6s; 
+    font-weight: bold;
+    border-left:1px solid rgba(0, 0, 0, 0.1);
+    border-right:1px solid rgba(0, 0, 0, 0.1);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.top_bare:hover, .top_bare:active, .logo  a:hover{
+
+color: #ffffff;
+text-shadow: 2px 2px 5px rgb(2, 2, 2) ;
+background-color:rgba(0, 0, 0, 0.167)
+}
+.logo{
+    
+  display: flex;
+    
+}
+.logo  a{
+    top: 6px;
+    width: 60px;
+    height: 55px;
+    padding-top :4px;
+    position:absolute;
+    left: 50px;
+    text-decoration: none;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.45);
+    border-radius: 50%;
+    text-align: center;
+
+    overflow:hidden;
+    
+}
+
+
+
+header{
+    top: 0px;;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    background-image: url("image/1510629-white-wallpaper-texture-1920x1080-iphone.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:0px ;
+    z-index: 1;
+    
+
+}
+
+.search-container {
+    top:5px;
+
+    right: 15px;;
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    position:absolute;
+  }
+  
+  #search {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    background-color: #cccccca4;
+  }
+  
+  #search-button {
+    background-color: #9a9494ab;
+    color: #030000;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    margin-left: 0.5rem;
+    font-style:;
+    cursor: pointer;
+  }
+  
+  #search-button:hover {
+    background-color: #555;
+  }
+  #search:hover{
+    border: 1px solid #2e2e2eb7;
+    color: white;
+    background-color: #2e2e2eb7;
+  }
+  #search:focus{
+    border: 1px solid #2e2e2eb7;
+    color: white;
+    background-color: #2e2e2eb7;
+  }
+ 
+.all_setup{position: relative;}
+.king{
+    position: relative;
+    
+    border:2px solid #ffffff;
+    background-color: rgba(26, 92, 150, 0);
+    backdrop-filter: blur(10px);
+    width: 60%;
+    height: 130px;;
+    border-radius: 5px;
+    margin-top:140PX;
+    margin-left:40PX;
+
+}
+.content{
+    position:absolute;
+    width: 200px;
+    height: 200px;
+    padding: ;
+    border-radius: 50%;
+    left: 120.5%;
+    top: -36px;
+    background-color: rgba(245, 222, 179, 0);
+    color:rgba(0, 255, 255, 0);
+    text-align: center;
+    vertical-align:bottom ;
+    
+}
+.content:hover{
+    position:absolute;
+    width: 200px;
+    height: 200px;
+    padding: ;
+    border-radius: 50%;
+    left: 120.5%;
+    top: -36px;
+    background-color: rgba(0, 0, 0, 0.505);
+    color:rgb(255, 255, 255);
+    text-align: center;
+    vertical-align:bottom ;
+    
+}
+.content p{
+    position: absolute;
+    top:40%;
+    left:30%;
+}
+
+
+
+.player{
+    position:absolute;
+    width: 200px;
+    height: 200px; ;
+    border-radius: 50%;
+    left: 120%;
+    top: -40px;
+    border: 4px solid white;
+
+}
+
+.player_name{
+    text-align: center;
+     position:absolute;
+    width: 170px;
+    padding: 0 5px;
+    margin:6px;
+    color: azure;
+    border: 1px solid white;
+    background-color: rgba(66, 67, 65, 0.769);
+    border-radius: 4px;
+    left: 121%;
+    top: 165px;
+}
+
+.king_image{
+    position:relative;
+    width: 60px;
+    margin-left: 15px;
+}
+.king_title{
+    position: absolute;
+    color: #000000;
+    margin-left:14px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0 4px;
+    margin-right:91%;
+    background-color: rgba(0, 255, 255, 0);
+    top: -32px;
+    border-top :solid ;
+    border-right :solid ;
+    border-left :solid ;
+    border-bottom :none ;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    background-color: #dad9d9d7;
+    border-color: #ffffff;
+}
+.king_para{
+    position: absolute;
+    top: 5px;
+    margin-left:13%;
+    color: aliceblue;
+    width:600px;
+    text-indent: 0.5cm;
+    text
+    font-size:10px;
+    text-shadow:0 0 5px yellow;
+
+}
+
+.board{
+    position: absolute;
+    width: 600px;
+    height: 500px;
+    margin-top: 160px;
+    left: 25%;
+    border: 2px solid white;
+}
+.board_title{
+    position: absolute;
+    color: #000000;
+    margin-top:121px ;
+    left:39%;
+   
+    background-color: rgba(0, 255, 255, 0);
+
+    border-top :solid ;
+    border-right :solid ;
+    border-left :solid ;
+    border-bottom :none ;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    background-color: #dad9d9d7;
+    border-color: #ffffff;
+}
+
